@@ -1,0 +1,42 @@
+При выполнении работы найдены и исправлены следующие ошибки:
+
+Файл index.html.
+1. Лишний пробел в подвале страницы. Сейчас "202 4", а должно быть "2024".
+
+Файл git.html.
+1. Не верно написано слово в подвале страницы. Сейчас "Вернуся на главную", а должно быть "Вернуться на главную"
+
+Файл cmd.html
+1.Лишний пробел в подвале странциы. Сейчас "202 4", а должно быть "2024".
+
+Файл mac.html
+1. Тег стоит в неправильном месте. Сейчас <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">, а должно быть, <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700"
+
+Файл animate.css
+1.Не верно прописана команда в шапке. Сейчас "@charset "UTF-8";, а должно быть <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+2.Не правильно указана навигационная панель. Сейчас @-webkit-keyframes bounce {
+from, 20%, 53%, 80%, to {
+-webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+} .
+А надо 20%, 53%, 80% {
+-webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+}
+
+Файл font-awesome.css
+1.Не правильно прописан стиль заголовка, сейчас "@font-face", а надо Font-face
+
+style.css
+1.Не правильно указан внешний отступ значения. Сейчас margin-left: 32%;
+		margin-top: 2%;
+А надо margin-left: 32px;
+		margin-top: 2px;
