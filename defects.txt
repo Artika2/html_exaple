@@ -5,18 +5,54 @@
 
 Файл git.html.
 1. Не верно написано слово в подвале страницы. Сейчас "Вернуся на главную", а должно быть "Вернуться на главную"
+2.Не правильно прописан путь в шапке. Сейчас <head>
+      <title>Git - всему голова!</title>
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+      <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+      <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   А надо, <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <title>Git - всему голова!</title>
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+      <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+      <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
 
 Файл cmd.html
 1.Лишний пробел в подвале странциы. Сейчас "202 4", а должно быть "2024".
+2. Не верно прописан путь в шапке, сейчас <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">, а надо <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Portal for QA</title>
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+      <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+      <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
 
 Файл mac.html
 1. Тег стоит в неправильном месте. Сейчас <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">, а должно быть, <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700"
 
 Файл animate.css
-1.Не верно прописана команда в шапке. Сейчас "@charset "UTF-8";, а должно быть <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
+1.Не верно прописана команда в шапке. Сейчас<head>
+      <title>Терминал MaOS</title>
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+      <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+      <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   А надо,<meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Терминал MaOS</title>
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+      <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+      <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
 
 2.Не правильно указана навигационная панель. Сейчас @-webkit-keyframes bounce {
 from, 20%, 53%, 80%, to {
