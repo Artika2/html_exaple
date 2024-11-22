@@ -45,6 +45,11 @@
 А надо       <footer class="animated fadeIn">
          <p class="location" align="center">
             <a href="index.html">Вернуться на главную</a>  
+8. Опечатка в подвале.
+Сейчас  <a href="git.html">Git</a>
+А надо  <a href="git.html">Git - всему голова!</a>
+
+
 
 
 Файл git.html.
@@ -84,7 +89,9 @@
          <p class="location" align="center">
             <a href="cmd.html">Вернуться на главную</a>  
 5.Пропущена команда. <li>ls - расшифровывается как "List files in the directory", что переводится как "перечислить все файлы в папке" или "вывести на экран список файлов в папке".</li>            
-
+6. Опечатка в шапке.
+Сейчас  <title>Portal for QA</title>
+А надо  <title>Командная строка Windows</title>
 
 Файл mac.html
 1. Тег стоит в неправильном месте. Сейчас <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">, а должно быть, <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700"
@@ -94,6 +101,9 @@
 3. Допущена ошибка в описании команд.
 Сейчас <li>mv - расшифровывается как "Make directory", что переводится как "создать папку".</li>
 А надо <li>mv - расшифровывается как "Move", что переводится как "создать папку".</li>
+Опечатка в шапке.
+Сейчас <title>Терминал MaOS</title>
+А надо <title>Терминал MaсOS</title>
 
 
 
